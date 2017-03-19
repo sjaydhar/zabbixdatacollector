@@ -19,3 +19,9 @@ What is required to run the Data Collection Service:
 3) Apache Tomcat Web Server. Follow Tomcat server installation from the web  
   - Start Data Collection Service
 
+
+Other OpenSource projects that this Data Colelction service can potentially be coupled with to add value are:
+
+- Apache Spot
+- Apache Flink
+- Spark Streaming
