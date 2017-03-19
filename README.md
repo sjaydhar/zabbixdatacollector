@@ -1,4 +1,4 @@
-# zabbixdatacollector
+# zabbixdatacollectorservice w/ Kafka
 Open Source Zabbix API data collector service with Kafka Producer Integration
 
 The purpose of this Data Collector is to templatize data collection as a service that leverages open source monitoring tools such as zabbix, Nagios etc. The initial code base provides zabbix integration for collecting various zabbix collected metrics, KPI's etc. The Data Collection Service is designed to run as a distributed service in a client/customer environment running Zabbix and sends the data over Kafka for consummption by different back end services. 
