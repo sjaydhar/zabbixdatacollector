@@ -1,0 +1,18 @@
+{
+	    "jsonrpc": "2.0",
+	    "method": "template.create",
+	    "params": {
+	        "host": "My Template SNMP OS Linux",
+	        "groups": {
+	            "groupid": 9
+	        },
+	        "templates": [
+	            {
+	                "templateid": "10069"
+	            }
+	        ]	
+
+	    },
+	    "auth": "d8e45cbbe5c2c94447c543194c8d8597",
+	    "id": 1
+}

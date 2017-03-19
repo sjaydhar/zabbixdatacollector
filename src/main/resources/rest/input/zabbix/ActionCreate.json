@@ -1,0 +1,47 @@
+{
+  "jsonrpc": "2.0",
+  "method": "action.create",
+  "params": {
+    "name": "My SNMP Discovery Action1",
+    "eventsource": 1,
+    "status": 0,
+    "esc_period": 0,
+    "filter": {
+      "evaltype": 0,
+      "conditions": [
+        {
+          "conditiontype": 10,
+          "value": "0"
+        },
+        {
+          "conditiontype": 18,
+          "value": "7"
+        },
+        {
+          "conditiontype": 8,
+          "value": "11"
+        }
+      ]
+    },
+    "operations": [
+      {
+        "optemplate": [
+          {
+            "templateid": "10108"
+          }
+        ],
+        "operationtype": 6
+      },
+      {
+        "opgroup": [
+          {
+            "groupid": "9"
+          }
+        ],
+        "operationtype": 4
+      }
+    ]
+  },
+  "auth": "d8e45cbbe5c2c94447c543194c8d8597",
+  "id": 1
+}

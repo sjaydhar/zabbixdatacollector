@@ -1,0 +1,9 @@
+{
+    "jsonrpc": "2.0",
+    "method": "hostgroup.create",
+    "params": {
+        "name": "My Linux servers Hostgroup"
+    },
+    "auth": "d8e45cbbe5c2c94447c543194c8d8597",
+    "id": 1
+}

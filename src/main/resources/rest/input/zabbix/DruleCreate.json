@@ -1,0 +1,18 @@
+{
+    "jsonrpc": "2.0",
+    "method": "drule.create",
+    "params": {
+        "name": "My SMNP discovery rule",
+        "iprange": "192.168.204.1-254",
+        "dchecks": [
+            {
+                "type": "11",
+                "key_": "SNMPv2-MIB::sysName.0",
+                "snmp_community": "public",
+				"ports": "161"
+            }
+        ]
+    },
+    "auth": "d8e45cbbe5c2c94447c543194c8d8597",
+    "id": 1
+}
